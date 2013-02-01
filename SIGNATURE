@@ -1,0 +1,53 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 fd9a41146af43c27d09abb7ce2096c6658ca9e4b MANIFEST
+SHA1 9b2d08fa65e4b0bf0fdd7df5b53d330a52dde6c8 META.yml
+SHA1 b518d2165c3196b055150b04f1ba2a0360813dc9 Makefile.PL
+SHA1 9cec197945bbdea1cd9dbf5d7e92ccf847822e57 README
+SHA1 2dee5894ea048f795d3f74a09b7f47065e6cafc6 etc/initialdata
+SHA1 f467d26958c8ca82225c368e42d52fbe12132d2f html/Callbacks/RT-Extension-Announce/Elements/PageLayout/BeforeBody
+SHA1 63c102a1e8edb5ee094be5b91f1d5f33596023ba html/Callbacks/RT-Extension-Announce/m/_elements/menu/MassageMenu
+SHA1 0683c0a3ffe07b8a73cbc104c9807591e10b40f9 html/NoAuth/css/announce.css
+SHA1 9b9070088e7a9558378273269f52a9053cea4510 html/NoAuth/js/announce.js
+SHA1 a070127de0f412245613136f3b6eb4df75926cb9 html/m/announcements
+SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
+SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
+SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
+SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
+SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
+SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
+SHA1 43b47fb3c5ec06b71bb175258c8c1b2aaf8a10ab inc/Module/Install/RTx.pm
+SHA1 9007d433ebaa755beb82757c1e6876800ef487a8 inc/Module/Install/RTx/Factory.pm
+SHA1 a3cff7ab08b95ee312b7e9381eb72f42e309c842 inc/Module/Install/ReadmeFromPod.pm
+SHA1 13c903897bad7f0fdd7871a4a0182ff62dfbefd5 inc/Module/Install/Substitute.pm
+SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
+SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
+SHA1 efe4a405f094aae05f296fc3baf6b69e122ec001 lib/RT/CustomFieldValues/AnnounceGroups.pm
+SHA1 d15be6ed0b5f8e9ed454bfee8420272a56ad2f1b lib/RT/Extension/Announce.pm
+SHA1 45718cd4e93ab190adf7739e52b65915c37933a0 lib/RT/Extension/Announce/Test.pm.in
+SHA1 311574fb1ce8b5b94c4c83869ac16af4da5a5c60 t/basic.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (Darwin)
+
+iQEcBAEBAgAGBQJRDDJsAAoJEBXncVGnZqUUWk0IAIhbyQ72eliytuzExdi5+tqZ
+acAps8x2c0vCCedhmc9VLz0QATk98ZrTpDRh3BBiluOly0x120uN3uzJ5aThGVtP
+WjEV5QrTCmvrGn23iDxDr7eay1XvdaX36SnYYmdSMmYhtQQT0OHnWYLQh+yySR9o
+GkAQrwUT3W19ET4D9Ed8vgseiScJSkmQrlyQlrhXA6mCirD+W5tCaXPW6R6DkvGn
+6zWiGNXfsazrMBYh+gwBSDrQq415nSkWHwJLqdBmC5sosi+yXJ2gNSGR/rWEp52j
+VkrgJVp/Jj+l2HN98ySn/DBbK12qxuYivsIhTVwpFWd3q1iFMA+18U2VGvIsS8U=
+=4GaX
+-----END PGP SIGNATURE-----
