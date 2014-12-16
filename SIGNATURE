@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.68.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,11 +14,11 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 9f5f1e7fee0c5d28063ebf18249aaaebc0fe8d48 Changes
-SHA1 1f99445121878bfe8bc2a19819f20a7a1db8d186 MANIFEST
-SHA1 114d56c58789e512df0b6fe12b9d73041d62166b META.yml
-SHA1 b518d2165c3196b055150b04f1ba2a0360813dc9 Makefile.PL
-SHA1 a905289f7dcdc583bc1a5538ce87867eb84d0e1f README
+SHA1 43e69eec08cf53ca17d5d6311f5f3a7d641e43ec Changes
+SHA1 9c6a0ab4d19e326a49acd8f5368446a32a84c714 MANIFEST
+SHA1 87c863ca766307b90fb7352267cf6bfc8e975118 META.yml
+SHA1 617b40cce3069226ec11b07c4b8d1bff92343d16 Makefile.PL
+SHA1 642fa19a1a9674cc6f51131acbb40b2add99f630 README
 SHA1 31f7b432156e06c41f1b45e3cd0b55faf5b261fa doc/images/announce-screenshot.png
 SHA1 2dee5894ea048f795d3f74a09b7f47065e6cafc6 etc/initialdata
 SHA1 5661017a41542d714f0c56f71e3ddd94da47a0b9 html/Callbacks/RT-Extension-Announce/Elements/PageLayout/BeforeBody
@@ -27,32 +27,32 @@ SHA1 63c102a1e8edb5ee094be5b91f1d5f33596023ba html/Callbacks/RT-Extension-Announ
 SHA1 042ec187afabe69db902a5a3f41db02c3e3820b7 html/NoAuth/css/announce.css
 SHA1 9b9070088e7a9558378273269f52a9053cea4510 html/NoAuth/js/announce.js
 SHA1 a070127de0f412245613136f3b6eb4df75926cb9 html/m/announcements
-SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
-SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
-SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
-SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
-SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
-SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
-SHA1 40df6f8d889b52eef379f04af6227f9302b23bf9 inc/Module/Install/RTx.pm
-SHA1 293967c09b20031d14fbe96d51a68b6e003a89c3 inc/Module/Install/RTx/Factory.pm
+SHA1 9b5001bfa9cf8607b3b3935284d9253e0391c9f1 inc/Module/Install.pm
+SHA1 cab0e564f9bdf658535f683aa197157e06d0dcea inc/Module/Install/Base.pm
+SHA1 a1559b5b3b40f68efbbd256f4fef85970891b3ae inc/Module/Install/Can.pm
+SHA1 f15c1ba85f6d52e70c48c64bf0752c90a4ad66f9 inc/Module/Install/Fetch.pm
+SHA1 d44d96acd20793306dd201030c688e2a7d3083ee inc/Module/Install/Include.pm
+SHA1 eb48df8bafd07c6a862126d9b274df42b4395742 inc/Module/Install/Makefile.pm
+SHA1 95c73873c6c3cb7024614c225c53863e1e90c134 inc/Module/Install/Metadata.pm
+SHA1 6e010ba20a9d0ae23d8d0ff516868c1e571c2d44 inc/Module/Install/RTx.pm
+SHA1 3fdf4c0cffdb1a2e23e5cd26bf95be553f1f9590 inc/Module/Install/RTx/Runtime.pm
 SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
 SHA1 13c903897bad7f0fdd7871a4a0182ff62dfbefd5 inc/Module/Install/Substitute.pm
-SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
-SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
+SHA1 f8b2ae3386f6ba26c33408968a953d450842eade inc/Module/Install/Win32.pm
+SHA1 f302bc703d76299cff243e5b44cecd61aac27b76 inc/Module/Install/WriteAll.pm
+SHA1 4e09b598c2626e08cec2bed5e981492fa9e90967 inc/YAML/Tiny.pm
+SHA1 034d0f3a7401dae4be3eee279258181f51a4ad81 inc/unicore/Name.pm
 SHA1 b4e17385d320c3a27baa26ded338acaadb7579b1 lib/RT/CustomFieldValues/AnnounceGroups.pm
-SHA1 2eecde834344bd83b464df90443b5e2ef4429576 lib/RT/Extension/Announce.pm
+SHA1 2291bcb4df4af3589e9434a9c35e6a784811270c lib/RT/Extension/Announce.pm
+SHA1 45718cd4e93ab190adf7739e52b65915c37933a0 lib/RT/Extension/Announce/Test.pm
 SHA1 45718cd4e93ab190adf7739e52b65915c37933a0 lib/RT/Extension/Announce/Test.pm.in
 SHA1 042ec187afabe69db902a5a3f41db02c3e3820b7 static/css/announce.css
 SHA1 9b9070088e7a9558378273269f52a9053cea4510 static/js/announce.js
 SHA1 311574fb1ce8b5b94c4c83869ac16af4da5a5c60 xt/basic.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.12 (Darwin)
+Version: GnuPG v1
 
-iQEcBAEBAgAGBQJTJ0zdAAoJEBXncVGnZqUUqhQH/iMB9S6TZ2VarBiOE1VKtl0L
-Vi5scnkn1t5cHd2BOG78kYz2vny+5anZiuziCMPJEryiVVIYmDwNHtyyv1IWH8mX
-IPib3GvUlvKAlBdc4xlPP4Cum7b4fgMJxYYu+5AFz7+QtTE2GZuAaPkGS8ZwjNyR
-/oopSdvEzkehYnwwaBueRnZxPzTMWDu0yGQuBLCSnvJ+/Mt33rZrTL1KvPdl4dJM
-gpmt7hlRm8+Ay4t6RRm6hEpPmbcmv5KWr2cUA1b2dJxyioMy9CfMqS3nscpqUA94
-z5nyNlArGDfS8bMgFRUUhsYHJDqtlaseJCLZh1rBO+To1jW+Nvyxw2ENbFqkQ0k=
-=K6Bm
+iEYEARECAAYFAlSQufYACgkQMflWJZZAbqDezgCeMZ3VVjT4JN3rAz5PWkvZgE8o
+8XAAn0hd3mBNTTLuA7QXbIZYJkY2CIuk
+=HjvI
 -----END PGP SIGNATURE-----
